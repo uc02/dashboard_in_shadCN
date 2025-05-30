@@ -19,7 +19,7 @@ import { SidebarTrigger } from './ui/sidebar'
 
 const Navbar = () => {
 
-  const {theme, setTheme} = useTheme()
+  const {setTheme} = useTheme()
   return (
     <nav className='p-4 flex items-center justify-between'>
       {/* LEFT */}
@@ -54,7 +54,7 @@ const Navbar = () => {
           <DropdownMenuTrigger>
             <Avatar>
               <AvatarImage src="/logo.svg" />
-              <AvatarFallback >CN</AvatarFallback>
+              <AvatarFallback >UC</AvatarFallback>
             </Avatar>
           </DropdownMenuTrigger>
           <DropdownMenuContent sideOffset={10}>
