@@ -93,8 +93,8 @@ const AppPieChart = () => {
           </PieChart>
       </ChartContainer>
       <div className="mt-4 flex flex-col gap-2 items-center">
-        <div className="flex items-center gap-2 leading-none font-medium">
-          Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+        <div className="flex items-center gap-2 leading-none font-medium ">
+          Trending up by 5.2% this month <TrendingUp className="h-4 w-4 text-green-500" />
         </div>
         <div className="text-muted-foreground leading-none">
           Showing total visitors for the last 6 months
